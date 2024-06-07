@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Primeiro Projeto",
+      "text": [
+        "Esse foi meu primeiro site, desenvolvido num primeiro momento usando algumas tecnologias e liguangem de programacao bastante simples, tive a satifação de desenvolver este projeto!"
+      ],
+      "image": "/example1.png",
+
+      "tags": ["HTML5", "CSS", "JAVASCRIPT"]
+    },
+    {
+      "title": "Seguindo a História",
+      "text": [
+      "Seguindo a hitória... elaborei mais este projeto com um design mais arrojado e pensando em expandir os horizontes adicionei novas paginas de navegação para que o usuário possa ter uma experiência melhor e mais detalhada!"],
+      "image": "/example2.png",
+
+      "tags": ["HTML5", "CSS", "JAVASCRIPT", "FIGMA"]
+    },
+    {
+      "title": "Entra o Framework",
+      "text": [
+        "Framework na Historia... com a entrada do Framework, tudo ficou mais ágil, mais organizado, requintado e RESPONSIVO. Fazendo com que o meu trabalho ganhasse mais valor, qualidade e agilidade na entrega."],
+      "image": "/example3.png",
+
+      "tags": ["HTML5", "FRAMEWORK", "JAVASCRIPT", "TAILWIND"]
+    },
+    {
+      "title": "Como fazer um bom portfólio?",
+      "text": [
+        "No último episódio do #HipstersPontoTube, Diogo Pires e Paulo Silveira conversaram sobre a importância do portfólio e quais são as dicas para criar essa ferramenta essencial para todos os níveis de profissionais. Eles também dão algumas dicas de carreira, respondendo perguntas como “quando é o momento certo de me aplicar nas vagas?”."
+      ],
+      "image": "/example.jpeg",
+      
+      "alt": "Screenshot do Youtube com o episódio do podcast rodando",
+      
+      "tags": ["HTML", "CSS"]
+    }
+  ]
