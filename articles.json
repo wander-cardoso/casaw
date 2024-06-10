@@ -27,12 +27,12 @@
     {
       "title": "Como fazer um bom portfólio?",
       "text": [
-        "No último episódio do #HipstersPontoTube, Diogo Pires e Paulo Silveira conversaram sobre a importância do portfólio e quais são as dicas para criar essa ferramenta essencial para todos os níveis de profissionais. Eles também dão algumas dicas de carreira, respondendo perguntas como “quando é o momento certo de me aplicar nas vagas?”."
+        "Para começar podemos inserir o máximo possivel de informações que sejam relevantes ao projeto desenvolvido, em sguida faça um resumo de seus projetos, depois tenha imagens para que possam ilustrar melhor, por fim tenha bom gosto nas cores usadas e na organização visual, para que se torne interessante... Fonte do texto: Eu mesmo."
       ],
       "image": "/example.jpeg",
       
-      "alt": "Screenshot do Youtube com o episódio do podcast rodando",
+      "alt": "minha foto",
       
-      "tags": ["HTML", "CSS"]
+      "tags": ["PORTIFÓLIO"]
     }
   ]
