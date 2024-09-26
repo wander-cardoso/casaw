@@ -8,8 +8,8 @@ const Form = ({ onSubmit}) => {
         onSubmit({name,})
     }
 
-    return <form onSubmit={safeSubmit} className="insira-nome">
-        <Input type="text" required placeholder="Insira seu nome..." />
+    return <form onSubmit = {safeSubmit} className="insira-nome">
+        <Input type="text" required placeholder="Olá, qual seu nome?" />
         <button type= "Submit" className="botao-seguir">Seguir</button>
     </form>
 }

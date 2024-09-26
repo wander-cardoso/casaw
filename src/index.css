@@ -5,6 +5,11 @@
 
 @layer components 
 {
+.body
+{@apply
+    dark:bg-dark-100
+}
+
 .botao-seguir 
     { @apply
         shadow-md hover:shadow-cyan-500 hover:dark:shadow-cyan-500 
