@@ -14,7 +14,7 @@ const ToggleTheme = () => {
     const toggle= () => {
         pageClasses.toggle('dark')
     }
-    return <div className= "hidden sm:block"> 
+    return <div className= " sm:block"> 
         <MoonIcon className="h-6  text-gray-400 block dark:hidden cursor-pointer" onClick={toggle}/>
         <SunIcon className="h-6   text-yellow-200 hidden dark:block cursor-pointer" onClick={toggle}/>
         </div>

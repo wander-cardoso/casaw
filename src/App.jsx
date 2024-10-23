@@ -12,9 +12,9 @@ const App = () => {
   <> 
     <div className="h-screen ">
     <Header user={user} />
-     { hasUser && <ArticleList />}
-     { hasUser || <Form onSubmit={setUser} />} 
-     </div>
+    { hasUser && <ArticleList />}
+    { hasUser || <Form onSubmit={setUser} />} 
+    </div>
   </>
   )
 }
