@@ -1,22 +1,23 @@
-import { useState } from "react"
-
-import ArticleList from "./Componentes/Header/ArticleList/ArticleList"
-import Form from "./Componentes/Form/Form"
+import React from 'react'
 import Header from "./Componentes/Header/Header"
+import ArticleList from "./Componentes/ArticleList/ArticleList"
+import Footer from "./Footer/Footer"
+
+
+
+
 
 const App = () => {
-  const [user, setUser] = useState ()
-  const hasUser = Boolean(user)
+    return (
+        <div className="h-screen">
+            <Header />
+            <ArticleList />
+            <Footer />
+        </div>
+    );
+};
 
-  return (
-  <> 
-    <div className="h-screen ">
-    <Header user={user} />
-    { hasUser && <ArticleList />}
-    { hasUser || <Form onSubmit={setUser} />} 
-    </div>
-  </>
-  )
-}
+
+
 
 export default App

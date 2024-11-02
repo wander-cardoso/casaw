@@ -10,15 +10,7 @@
     dark:bg-dark-100
 }
 
-.botao-seguir 
-    { @apply
-        shadow-md hover:shadow-cyan-500 hover:dark:shadow-cyan-500 
-        text-gray-200  px-4  bg-sky-900 rounded-full uppercase ;
-    }
-.insira-nome 
-    { @apply
-          h-full flex flex-col items-center justify-center gap-10 -mt-20;
-    }
+
 .card
     { @apply
         flex bg-gray-200 dark:bg-dark-200 sm:rounded-xl sm:shadow-lg hover:break-inside-avoid-column hover:shadow-cyan-200 transition duration-300 delay-150 ;
