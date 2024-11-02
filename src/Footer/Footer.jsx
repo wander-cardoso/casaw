@@ -40,15 +40,17 @@ import {FaGithub, FaFacebook, FaInstagram} from 'react-icons/fa'
 
 function Footer() {
     return (
-    <footer>
+    <div class="rodape align-text-bottom text-center  dark:text-gray-400" >
         
-        <footer class="rodape align-text-bottom text-center" >
-        
+        <footer >
+        <div className='flex justify-center gap-5 hover:cursor-pointer  '>
             <FaGithub/>
         <FaFacebook />
         <FaInstagram/>
+        </div>
+
             &copy; Desenvolvido por Wander! </footer>
-    </footer>
+    </div>
 )
 }
 

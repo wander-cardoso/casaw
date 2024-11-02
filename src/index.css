@@ -13,7 +13,7 @@
 
 .card
     { @apply
-        flex bg-gray-200 dark:bg-dark-200 sm:rounded-xl sm:shadow-lg hover:break-inside-avoid-column hover:shadow-cyan-200 transition duration-300 delay-150 ;
+        flex odd:dark:bg-zinc-900 even:dark:bg-zinc-800   odd:bg-gray-300 even:bg-slate-50 rounded-md shadow-lg hover:break-inside-avoid-column hover:shadow-cyan-200 transition duration-300 delay-150 ;
     }
 }
 
