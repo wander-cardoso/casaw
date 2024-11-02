@@ -1,12 +1,10 @@
-import { DiReact } from "react-icons/di";
+
+
 
 const Article = ({ title, text, tags, image, alt }) => {
     
-    return <div className="card py-10 m-5 h-50 grid grid-cols-1 gap-4  ">
-        <div>
-        <h1 className="dark:text-gray-50">Ola </h1>
+    return <div className="card py-10 m-5 h-50 grid grid-cols-2 gap-4  ">
         
-        </div>
         <h3 className="text-xl text-center md:text-start  text-nowrap text-alura-200 dark:text-gray-200 font-bold px-20  ">{title}</h3>
         <div className="flex text-center  justify-center columns-1flex-shrink gap-2 md:justify-start md:ml-12 "> 
         {
@@ -19,9 +17,6 @@ const Article = ({ title, text, tags, image, alt }) => {
             }
         </div>
 
-                    <div>
-                        <span                className="flex text-blue-400 m-6 ">  <DiReact /></span>
-        </div>
 
         {image && <img className="  ml-32 rounded-md size-40 md:size-96 " src={image} />}
         {image && alt && <span className="sr-only " > {alt}</span>}
