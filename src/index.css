@@ -7,7 +7,7 @@
 {
 .body
 {@apply
-    dark:bg-dark-100
+    dark:bg-dark-100 h-full;
 }
 
 

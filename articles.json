@@ -5,6 +5,7 @@
         "Esse foi meu primeiro site, desenvolvido num primeiro momento usando algumas tecnologias e liguangem de programacao bastante simples, tive a satifação de desenvolver este projeto!"
       ],
       "image": "/example1.png",
+      
 
       "tags": ["HTML5", "CSS", "JAVASCRIPT"]
     },
@@ -12,7 +13,7 @@
       "title": "Seguindo a História",
       "text": [
       "Seguindo a hitória... elaborei mais este projeto com um design mais arrojado e pensando em expandir os horizontes adicionei novas paginas de navegação para que o usuário possa ter uma experiência melhor e mais detalhada!"],
-      "image": "/example2.png",
+      
 
       "tags": ["HTML5", "CSS", "JAVASCRIPT", "FIGMA"]
     },
